@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_notes">
+
+    <fragment
+        android:id="@+id/navigation_notes"
+        android:name="com.yuandream.yesmemo.ui.notes.NotesFragment"
+        android:label="@string/main_notes_fragment_title_notes"
+        tools:layout="@layout/fragment_note" />
+
+    <fragment
+        android:id="@+id/navigation_plans"
+        android:name="com.yuandream.yesmemo.ui.plans.PlansFragment"
+        android:label="@string/main_notes_fragment_title_plans"
+        tools:layout="@layout/fragment_plans" />
+
+    <fragment
+        android:id="@+id/navigation_recording"
+        android:name="com.yuandream.yesmemo.ui.recordings.RecordingsFragment"
+        android:label="@string/main_notes_fragment_title_recording"
+        tools:layout="@layout/fragment_recordings" />
+
+</navigation>

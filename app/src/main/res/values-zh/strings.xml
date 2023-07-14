@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 作者名单 -->
+    <string name="name_kongqikill">kongqikill</string>
+    <string name="name_yuandream">yuandream</string>
+    <!-- 其他 -->
+    <string name="main_notes_fragment_title_notes">笔记</string>
+    <string name="main_notes_fragment_title_plans">计划</string>
+    <string name="main_notes_fragment_title_recording">录音</string>
+    <string name="imagebutton_title_more">更多</string>
+    <string name="button_back">返回</string>
+    <string name="button_add">添加</string>
+    <string name="button_delete">删除</string>
+    <string name="button_edit">编辑</string>
+    <string name="menu_main_more_titie_pgv">宫格视图</string>
+    <string name="menu_main_more_titie_so">排序方式</string>
+    <string name="menu_main_more_titie_settings">设置</string>
+    <string name="text_basic_settings">基础设置</string>
+    <string name="text_notification">消息通知</string>
+    <string name="text_note_watermark">笔记水印</string>
+    <string name="text_automatic_speech_to_text">语音自动转文本</string>
+    <string name="text_about_memo">关于备忘录</string>
+    <string name="text_and">与</string>
+    <string name="text_user_agreement">用户协议</string>
+    <string name="text_author">作者</string>
+    <string name="text_developer">开发者</string>
+    <string name="search_icon_description">搜索</string>
+    <string name="alertDialog_notesadapter_deleteItem_title">确认删除</string>
+    <string name="alertDialog_notesadapter_deleteItem_msg">确定要删除该项目吗？</string>
+    <string name="alertDialog_notesadapter_Item_ok">确定</string>
+    <string name="alertDialog_notesadapter_Item_cancel">取消</string>
+    <string name="menu_notes_item_titie_pin">置顶</string>
+    <string name="menu_notes_item_titie_rename">重命名</string>
+    <string name="menu_notes_item_titie_delete">删除</string>
+    <string name="menu_notes_item_titie_properties">属性</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_about_title">关于备忘录</string>
+    <string name="menu_main_more_title_grid_view">宫格视图</string>
+    <string name="menu_main_more_title_list_view">列表视图</string>
+    <string name="menu_notes_item_title_unpin">取消置顶</string>
+    <string name="menu_notes_item_title_pin">置顶</string>
+    <string name="alertDialog_notesadapter_renameItem_msg">请输入新的名称</string>
+    <string name="alertDialog_notesadapter_attributeItem_title">属性</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_title">"标题"</string>
+    <string name="alertDialog_notesadapter_attributeItem_content1">%s%s\n小标题%s\n内容%s\n编辑时间%s\n创建时间%s\n置顶状态%s</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_sticky">已置顶</string>
+    <string name="valertDialog_notesadapter_attributeItem_content_notsticky">未置顶</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_title2">小标题</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_content">内容</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_edittime">编辑时间</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_createtime">创建时间</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_pinned">置顶状态</string>
+    <string name="menu_main_more_titie_refresh">刷新</string>
+    <string name="imagebutton_title_switchtheme">切换主题</string>
+
+</resources>

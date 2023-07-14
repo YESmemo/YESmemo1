@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_main_refresh"
+        android:icon="@drawable/ic_refresh_24"
+        android:title="@string/menu_main_more_titie_refresh"/>
+
+    <item
+        android:id="@+id/menu_main_pgv"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/menu_main_more_titie_pgv" />
+
+    <item
+        android:id="@+id/menu_main_so"
+        android:icon="@drawable/ic_more"
+        android:title="@string/menu_main_more_titie_so" />
+
+    <item
+        android:id="@+id/menu_main_settings"
+        android:icon="@drawable/ic_settings_24"
+        android:title="@string/menu_main_more_titie_settings" />
+
+</menu>

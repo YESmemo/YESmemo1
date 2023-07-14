@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F3F5"
+    tools:context=".ui.notes.NotesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/note_layout_search"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_weight="1"/>-->
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/note_search"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                app:showAsAction="always|collapseActionView"
+                app:actionLayout="@layout/custom_search_view"
+                android:layout_margin="4dp" />
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/note_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="85dp"
+                android:contentDescription="@string/button_add"
+                app:backgroundTint="@color/app_main_color"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:rippleColor="@color/app_main_color"
+                app:srcCompat="@drawable/ic_add_24"
+                app:tint="@color/white"
+                tools:ignore="MissingConstraints,ImageContrastCheck" />
+
+            <GridView
+                android:id="@+id/note_list"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:horizontalSpacing="5dp"
+                android:verticalSpacing="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
