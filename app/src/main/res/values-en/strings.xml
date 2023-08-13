@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <!-- List of Authors -->
     <string name="name_kongqikill">kongqikill</string>
     <string name="name_yuandream">yuandream</string>
+    
+    <!-- List of open source -->
+    <string name="name_github">Github</string>
+    <string name="name_gitee">Gitee</string>
+    
     <!-- Other -->
     <string name="main_notes_fragment_title_notes">Notes</string>
     <string name="main_notes_fragment_title_plans">Plans</string>
@@ -18,12 +24,15 @@
     <string name="text_basic_settings">Basic Settings</string>
     <string name="text_notification">Notification</string>
     <string name="text_note_watermark">Note Watermark</string>
-    <string name="text_automatic_speech_to_text">Automatic Speech-to-Text</string>
+    <string name="text_automatic_speech_to_text">Speech to text service</string>
     <string name="text_about_memo">About Memo</string>
     <string name="text_and">And</string>
     <string name="text_user_agreement">User Agreement</string>
     <string name="text_author">Author</string>
     <string name="text_developer">Developer</string>
+    <string name="text_opens">Open-source</string>
+    <string name="text_github">https://github.com/YESmemo/YESmemo1</string>
+    <string name="text_gitee">https://gitee.com/？</string>
     <string name="search_icon_description">Search</string>
     <string name="alertDialog_notesadapter_deleteItem_title">Confirm Delete</string>
     <string name="alertDialog_notesadapter_deleteItem_msg">Are you sure you want to delete this item?</string>

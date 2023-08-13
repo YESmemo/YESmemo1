@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 作者名單 -->
+    <string name="name_kongqikill">kongqikill</string>
+    <string name="name_yuandream">yuandream</string>
+    
+    <!-- 開源列表 -->
+    <string name="name_github">Github</string>
+    <string name="name_gitee">Gitee</string>
+    
+    <!-- 其他 -->
+    <string name="main_notes_fragment_title_notes">筆記</string>
+    <string name="main_notes_fragment_title_plans">計劃</string>
+    <string name="main_notes_fragment_title_recording">錄音</string>
+    <string name="imagebutton_title_more">更多</string>
+    <string name="button_back">返回</string>
+    <string name="button_add">添加</string>
+    <string name="button_delete">刪除</string>
+    <string name="button_edit">編輯</string>
+    <string name="menu_main_more_titie_pgv">宮格視圖</string>
+    <string name="menu_main_more_titie_so">排序方式</string>
+    <string name="menu_main_more_titie_settings">設置</string>
+    <string name="text_basic_settings">基礎設置</string>
+    <string name="text_notification">消息通知</string>
+    <string name="text_note_watermark">筆記水印</string>
+    <string name="text_automatic_speech_to_text">語音轉文本服務</string>
+    <string name="text_about_memo">關於備忘錄</string>
+    <string name="text_and">與</string>
+    <string name="text_user_agreement">用戶協議</string>
+    <string name="text_author">作者</string>
+    <string name="text_developer">開發者</string>
+    <string name="text_opens">開源</string>
+    <string name="text_github">https://github.com/YESmemo/YESmemo1</string>
+    <string name="text_gitee">https://gitee.com/？</string>
+    <string name="search_icon_description">搜索</string>
+    <string name="alertDialog_notesadapter_deleteItem_title">確認刪除</string>
+    <string name="alertDialog_notesadapter_deleteItem_msg">確認刪除該項目嗎？</string>
+    <string name="alertDialog_notesadapter_Item_ok">確認</string>
+    <string name="alertDialog_notesadapter_Item_cancel">取消</string>
+    <string name="menu_notes_item_titie_pin">置頂</string>
+    <string name="menu_notes_item_titie_rename">重命名</string>
+    <string name="menu_notes_item_titie_delete">刪除</string>
+    <string name="menu_notes_item_titie_properties">屬性</string>
+    <string name="settings_title">設置</string>
+    <string name="settings_about_title">關於備忘錄</string>
+    <string name="menu_main_more_title_grid_view">宮格視圖</string>
+    <string name="menu_main_more_title_list_view">列表視圖</string>
+    <string name="menu_notes_item_title_unpin">取消置頂</string>
+    <string name="menu_notes_item_title_pin">置頂</string>
+    <string name="alertDialog_notesadapter_renameItem_msg">請輸入新的名稱</string>
+    <string name="alertDialog_notesadapter_attributeItem_title">屬性</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_title">"標題"</string>
+    <string name="alertDialog_notesadapter_attributeItem_content1">%s%s\n副標題%s\n內容%s\n編輯時間%s\n創建時間%s\n置頂狀態%s</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_sticky">已置頂</string>
+    <string name="valertDialog_notesadapter_attributeItem_content_notsticky">未置頂</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_title2">副標題</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_content">內容</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_edittime">編輯時間</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_createtime">創建時間</string>
+    <string name="alertDialog_notesadapter_attributeItem_content_pinned">置頂狀態</string>
+    <string name="menu_main_more_titie_refresh">刷新</string>
+    <string name="imagebutton_title_switchtheme">切換主題</string>
+
+</resources>
